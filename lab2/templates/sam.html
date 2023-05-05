@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ФИО: {{user.name}}</h1>
+    <a href="{{user.link}}">Галерея</a><br><br>
+    <img src="{{user.img}}">
+    <p><b>Название:</b>  {{user.poroda}}</p>
+    <p><b>Направление :</b> {{user.char}}</p>
+    <p><b>Стих:</b> <i>{{user.description}}</i></p>
+    <p> <i>{{user.description1}}</i></p>
+</body>
+</html>
